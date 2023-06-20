@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hii mutta</title>
+<title>Anuuu</title>
 <style>
 p {
 text-align: center;
@@ -15,7 +15,7 @@ width: 25%;
 </style>
 </head>
 <body>
-<p>Can we hang out soon?</p>
+<p>Edhachum movie polaama daaa <3??</p>
 <img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
 </body>
 <title>Botões</title>
@@ -34,16 +34,20 @@ position: absolute;
 </style>
 </head>
 <body>
-<button id="botao1">YES BBY!</button>
-<button id="botao2">NO</button>
+<button id="botao1">Polaame</button>
+<button id="botao2">Venaam</button>
 <script>
 const button2 = document.getElementById('botao2');
 let left = 40;
 button2.addEventListener('mouseover', function() {
   if(left == 40){
     left = 59;
+  }else if(left ==59){
+    top = 10;
+  }else if(top == 10){
+   left=20;
   }else{
-    left = 40;
+   left = 40
   }
   this.style.left = left + '%';
 });
